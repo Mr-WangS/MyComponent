@@ -1,0 +1,6 @@
+
+<template name="songs-list">
+      <view bindtap='retFs'>
+       {{throwData}}----------1
+      </view>
+</template>

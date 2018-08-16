@@ -1,0 +1,6 @@
+<!--pages/import/import.wxml-->
+<text>pages/import/import.wxml</text>
+<import src="importFile/importFile.wxml" />
+<import src="importFile/importFile2.wxml" />
+<template is="songs-list" data="{{throwData}}"></template>
+<template is="songs-item" data="{{throwData}}"></template>

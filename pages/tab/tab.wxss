@@ -1,7 +1,6 @@
 page{
   display: flex;
   height: 100%;
-  font: normal 30rpx/1.68 -apple-system-font, 'Helvetica Neue', Helvetica, 'Microsoft YaHei', sans-serif;
 }
 .tab{
   height: 100%;
