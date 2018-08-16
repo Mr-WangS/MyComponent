@@ -1,0 +1,2 @@
+# MyComponent
+some code
