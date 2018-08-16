@@ -1,0 +1,49 @@
+page{
+  display: flex;
+  height: 100%;
+  	font: normal 30rpx/1.68 -apple-system-font, 'Helvetica Neue', Helvetica, 'Microsoft YaHei', sans-serif;
+}
+.tab{
+  height: 100%;
+  overflow: hidden;
+}
+.tab-cont{
+  height: 100%;
+  width: 300%;
+  overflow:hidden;
+  display: flex;
+}
+.cont1{
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex: 1;
+}
+.tab-nav{
+  display: flex;
+  border-bottom: 1rpx solid #F2F2F2;
+  position: relative;
+}
+.tab-nav text{
+  flex: 1;
+  text-align: center;
+  line-height: 80rpx;
+}
+.nav-active{
+  color: orange;
+}
+.nav-line{
+  position: absolute;
+  height: 4rpx;
+  background: pink;
+  bottom: 0;
+  transition: all 0.5s;
+}
+
+.cont1-list{
+  padding: 0 20rpx;
+}
+.list-item{
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #ccc;
+}

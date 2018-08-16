@@ -1,0 +1,53 @@
+
+    <view class='tab'>
+        <view class='tab-nav'>
+          <text  wx:for="{{tabNav.tabitem}}" wx:key="{{index}}" data-tabId='{{index}}' class='{{tabIndex==index?"nav-active":""}}'
+          bindtap='tabClick'>{{item.text}}</text>
+          <view class='nav-line' style='width:{{100/tabNav.tabnum}}%; transform: translateX({{100*tabIndex}}%);'></view>
+        </view>
+        <view class='tab-cont' style='width:{{tabNav.tabnum*100}}%;transform:translateX(-{{transPer}}%)'>
+            <view class='cont1' >
+                <view class='cont1-list'>
+                  <view class='list-item'  wx:for="{{tabNav.tabitem+10}}" wx:key="{{index}}">
+                    <view class='ellipseOne'>
+                   111服务名称适用品类服务实施详情服务期限服务生效时间摔碰管修一年笔记本本服务有效期内，如客户的数码摄照产品在正常使用过程中由于 不慎将产品坠落、挤压、碰撞，而产生的硬件故障，本服务将免费提供硬件维修或更换，使产品重新恢复正常运行。12个月购机满30天后开
+                    </view>
+                  </view>
+                </view>
+            </view>
+        
+
+
+
+            <view class='cont1' >
+                <view class='cont1-list'>
+                  <view class='list-item'  wx:for="{{tabNav.tabitem+10}}" wx:key="{{index}}">
+                    <view class='ellipseOne'>
+                  222服务名称适用品类服务实施详情服务期限服务生效时间摔碰管修一年笔记本本服务有效期内，如客户的数码摄照产品在正常使用过程中由于 不慎将产品坠落、挤压、碰撞，而产生的硬件故障，本服务将免费提供硬件维修或更换，使产品重新恢复正常运行。12个月购机满30天后开
+                    </view>
+                  </view>
+                </view>
+            </view>        
+
+
+
+
+            <view class='cont1' >
+                <view class='cont1-list'>
+                  <view class='list-item'  wx:for="{{tabNav.tabitem+10}}" wx:key="{{index}}">
+                    <view class='ellipseOne'>
+                  233332服务名称适用品类服务实施详情服务期限服务生效时间摔碰管修一年笔记本本服务有效期内，如客户的数码摄照产品在正常使用过程中由于 不慎将产品坠落、挤压、碰撞，而产生的硬件故障，本服务将免费提供硬件维修或更换，使产品重新恢复正常运行。12个月购机满30天后开
+                    </view>
+                  </view>
+                </view>
+            </view>       
+
+
+
+        </view>
+    </view> 
+  
+
+
+  
+
