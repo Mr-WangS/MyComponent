@@ -1,11 +1,13 @@
 page{
   display: flex;
   height: 100%;
-  	font: normal 30rpx/1.68 -apple-system-font, 'Helvetica Neue', Helvetica, 'Microsoft YaHei', sans-serif;
+  font: normal 30rpx/1.68 -apple-system-font, 'Helvetica Neue', Helvetica, 'Microsoft YaHei', sans-serif;
 }
 .tab{
   height: 100%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 .tab-cont{
   height: 100%;
@@ -39,7 +41,6 @@ page{
   bottom: 0;
   transition: all 0.5s;
 }
-
 .cont1-list{
   padding: 0 20rpx;
 }
