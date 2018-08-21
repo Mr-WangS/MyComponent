@@ -1,7 +1,8 @@
 {
   "pages":[
-    "pages/import/import",
     "pages/tab/tab",
+    "pages/import/import",
+   
     "pages/index/index",
     "pages/logs/logs"
   ],
@@ -10,5 +11,6 @@
     "navigationBarBackgroundColor": "#128DEE",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
-  }
+  },
+  "debug":"true"
 }

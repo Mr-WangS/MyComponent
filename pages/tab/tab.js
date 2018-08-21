@@ -1,7 +1,7 @@
 Page({
   data: {
     tabIndex:0 ,
-    transPer:0,
+    transPer:0, 
   },
   onLoad: function () {
     this.setData({
@@ -22,16 +22,15 @@ Page({
     })
   },
   tabClick(e){
-
     this.setData({
       tabIndex: e.currentTarget.dataset.tabid,
-      
        })
     this.setData({
       transPer: this.data.tabIndex * 100 / this.data.tabNav.tabnum
     })
- 
   },
-
-
+  /**下拉到底部 */
+  pullUpLoad(e){
+    console.log(e)
+  }
 })

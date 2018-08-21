@@ -8,7 +8,7 @@ page{
   display: flex;
   flex-direction: column;
 }
-.tab-cont{
+.tab-cont{ 
   height: 100%;
   width: 300%;
   overflow:hidden;

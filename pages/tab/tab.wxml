@@ -1,4 +1,4 @@
-
+ 
     <view class='tab'>
         <view class='tab-nav'>
           <text  wx:for="{{tabNav.tabitem}}" wx:key="{{index}}" data-tabId='{{index}}' class='{{tabIndex==index?"nav-active":""}}'
@@ -6,7 +6,7 @@
           <view class='nav-line' style='width:{{100/tabNav.tabnum}}%; transform: translateX({{100*tabIndex}}%);'></view>
         </view>
         <view class='tab-cont' style='width:{{tabNav.tabnum*100}}%;transform:translateX(-{{transPer}}%)'>
-            <view class='cont1' >
+            <scroll-view class='cont1'  scroll-y="true" bindscrolltolower="pullUpLoad">
                 <view class='cont1-list'>
                   <view class='list-item'  wx:for="{{tabNav.tabitem+5}}" wx:key="{{index}}">
                     <view class='ellipseOne'>
@@ -14,12 +14,10 @@
                     </view>
                   </view>
                 </view>
-            </view>
+            </scroll-view>
         
 
-
-
-            <view class='cont1' >
+            <scroll-view class='cont1' scroll-y="true" bindscrolltolower="pullUpLoad">
                 <view class='cont1-list'>
                   <view class='list-item'  wx:for="{{tabNav.tabitem+5}}" wx:key="{{index}}">
                     <view class='ellipseOne'>
@@ -27,12 +25,10 @@
                     </view>
                   </view>
                 </view>
-            </view>        
+            </scroll-view>        
 
 
-
-
-            <view class='cont1' >
+            <scroll-view class='cont1' scroll-y="true" bindscrolltolower="pullUpLoad">
                 <view class='cont1-list'>
                   <view class='list-item'  wx:for="{{tabNav.tabitem+10}}" wx:key="{{index}}">
                     <view class='ellipseOne'>
@@ -40,7 +36,7 @@
                     </view>
                   </view>
                 </view>
-            </view>       
+            </scroll-view>       
 
 
 
