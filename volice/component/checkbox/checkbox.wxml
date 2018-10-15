@@ -1,0 +1,9 @@
+
+
+
+<label class="label_checkbox" catchtap = "onTap">
+    <view class="el-checkbox__input {{checkboxState==2?'is-checked':(checkboxState==1?'is-indeterminate':'')}}">
+        <view class="el-checkbox__inner"></view>
+        <checkbox class="checkbox" value="{{checkboxLabel}}" checked="{{isChecked}}" />
+    </view>
+</label>

@@ -1,0 +1,55 @@
+/* component/showActionShell/show-shell.wxss */
+.box{
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 100;
+}
+.box-content{
+  position: absolute;
+  width: 100vw;
+  bottom: 50rpx;
+  z-index: 200;
+}
+.box-content-top{
+    padding: 20px;
+     line-height: 50px;
+}
+.box-content-bot{
+ padding: 20px;
+  margin-top: -40rpx;
+  line-height: 50px;
+}
+
+.box-copy{
+  background: #fff;
+  text-align: center;
+  font-size: 18px;
+  border-bottom-left-radius: 18rpx;
+   border-bottom-right-radius: 18rpx;
+}
+.box-copys{
+  border-radius: 18rpx;
+}
+.box-iphone{
+  background: #fff;
+  text-align: center;
+  font-size: 18px;
+  border-top-left-radius: 18rpx;
+   border-top-right-radius: 18rpx;
+  border-bottom: 1px solid #F2F2F2;
+}
+.box-cancel{
+  background: #fff;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 18rpx;
+}
+.box-cancel-down{
+   background: #ECECEC;
+}
+

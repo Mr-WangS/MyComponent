@@ -1,0 +1,56 @@
+.checkbox {
+    display: none;
+}
+
+.label_checkbox {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #bda571;
+    border-radius: 2px;
+    position: relative;
+}
+
+.el-checkbox__input,
+.el-checkbox__inner {
+    display: block;
+    width: 14px;
+    height: 14px;
+}
+
+.is-checked,
+.is-indeterminate {
+    background: #bda571;
+}
+
+.is-checked::after {
+    box-sizing: content-box;
+    content: "";
+    border: 1px solid #fff;
+    border-left: 0;
+    border-top: 0;
+    height: 7px;
+    left: 5px;
+    position: absolute;
+    top: 2px;
+    /* transform: rotate(45deg) scaleY(0); */
+    transform: rotate(45deg) scaleY(1);
+    width: 3px;
+    /* transition: transform .15s ease-in .05s;
+        transform-origin: center; */
+}
+
+.is-indeterminate::after {
+    box-sizing: content-box;
+    content: "";
+    border: 1px solid #fff;
+    /* border-left: 0;
+    border-top: 0; */
+    height: 0px;
+    left: 2px;
+    position: absolute;
+    top: 6px;
+    /* transform: rotate(45deg) scaleY(0); */
+    /* transform: rotate(45deg) scaleY(1); */
+    width: 8px;
+}

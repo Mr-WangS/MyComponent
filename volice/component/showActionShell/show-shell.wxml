@@ -1,0 +1,16 @@
+
+<view>
+<view class='box' hidden='{{showShell}}' bindtap='disaped'>
+    <view class='box-content'>
+      <view class='box-content-top'>
+        <view class='box-iphone  {{iphonebind?"":"box-cancel-down"}} ' wx:if="{{isshow}}"  catchtap="callPhone">拨打号码</view>
+        <view class='box-copy {{copybind?"":"box-cancel-down"}} {{isshow?"":"box-copys"}}' catchtap="callCopy">复制</view>
+      </view>
+      <view class='box-content-bot'>
+        <view class='box-cancel {{cancelbind?"":"box-cancel-down"}}' bindtap='cancel'
+         >取消</view>
+       </view>
+    </view>
+</view>
+</view>
+

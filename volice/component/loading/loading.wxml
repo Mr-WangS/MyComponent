@@ -1,0 +1,11 @@
+
+<!-- <view class='wx_dialog_container'  hidden="{{!isShow}}">
+    <view class='wx-mask'>
+      <image src='../../static/loading/load1.gif'></image>
+    </view>
+</view> -->
+<view  hidden="{{!isShow}}">
+    <loading  hidden="{{!isShow}}">
+        加载中...
+    </loading>
+</view>

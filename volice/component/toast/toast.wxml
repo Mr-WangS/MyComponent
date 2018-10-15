@@ -1,0 +1,7 @@
+
+  <view class='toast-content-box' hidden="{{isShow}}">
+      <view class='toast-content'>
+          <view class='toast-content-text'>{{content}}</view>
+      </view>
+  </view>
+

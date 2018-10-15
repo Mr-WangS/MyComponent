@@ -1,0 +1,33 @@
+<!-- 音频播放开关 -->
+ 
+<view class='audiosBox' wx:for="{{tablist}}" wx:key="{{index}}">
+ 
+   <audio src="{{item.src}}" id="myAudio{{index}}" data-id='{{index}}'  bindtimeupdate="updata"></audio>
+ 
+      <view class="progress">
+      
+        <view class="audioOpen" data-id='{{index}}' bindtap="audioPlay" wx:if="{{!autoplat[index].isOpen}}">
+
+          <image class='image2' src="../../static/tabricon/bofang.png" />
+        
+        </view>
+ 
+        <view class="audioOpen" data-id='{{index}}' bindtap="audioPause" wx:if="{{autoplat[index].isOpen}}">
+        
+          <image src="../../static/tabricon/zanting.png" />
+        
+        </view> 
+ 
+        <text>{{updatas[index].starttime}}</text>
+ 
+        <view class='slid'>
+        
+        <slider bindchange="sliderChange" data-id='{{index}}'  block-size="12px" step="2" value="{{updatas[index].offset }}" max="{{updatas[index].max}}" class="slider" selected-color="#ff5e5e" />
+        
+        </view>
+ 
+       <text>{{item.duration}}</text>
+ 
+      </view>
+ 
+</view>
